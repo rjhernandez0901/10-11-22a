@@ -1,0 +1,17 @@
+$primary : purple;
+$warning : black;
+$modal-backdrop-bg: rgb(11, 241, 134);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$rj-theme-colors:(
+    "cool" : rgb(184, 40, 220),
+    "allen" : rgb(14, 14, 14)
+);
+
+$theme-colors : map-merge($rj-theme-colors , $theme-colors );
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss" 
